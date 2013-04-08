@@ -1,0 +1,9 @@
+<body>
+  {{> body}}
+</body>
+
+<template name="body">
+  {{#each pages}}
+    {{highlightWithMarkdown text}}
+  {{/each}}
+</template>
